@@ -1,0 +1,46 @@
+:root {
+    --amarillo: #eac926;
+    --azul: #03264c;
+    --celeste: #1259c3;
+    --gris-oscuro: #666;
+    --gris-claro: #ebebeb;
+    --verde: #39b54a;
+  }
+body {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+ }
+*{/*Asterisco es un selector universal, que se aplicará a todo el contenido.*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+main{
+    background-color: var(--gris-claro);
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    color: var(--gris-oscuro);
+    border-radius: 3px;
+    font-size: 14px;
+}
+.boton{
+    color: #1259c3;
+}
+.recuadro{
+    border: solid 1px var(--gris-oscuro);
+    padding: 10px;
+    width: 100%;
+}
+.recuadro:focus{
+    border-color: var(--verde);
+}
+.decoracion{
+    font-weight: bold;
+    line-height: 22px;
+}

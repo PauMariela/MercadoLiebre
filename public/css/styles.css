@@ -1,0 +1,169 @@
+@import url(normalize.css);
+@import url(header.css);
+@import url(footer.css);
+
+:root {
+  --amarillo: #eac926;
+  --azul: #03264c;
+  --celeste: #1259c3;
+  --gris-oscuro: #666;
+  --gris-claro: #ebebeb;
+  --verde: #39b54a;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/*main*/
+.main {
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: auto;
+}
+.banner{
+    width: 100%;
+}
+.section {
+  text-align: center;
+  /*ver no comprendo la funcionalidad*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.titulares {
+  font-size: 24px;
+}
+.article {
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.config-icono-precio-desc-descrip {
+  border-top: 1px solid #ebebeb;
+  padding: 15px;
+  background-color: white;
+  position: relative;
+}
+.main section article i {
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30 px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  color: var(--verde);
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+}
+.main section article:hover i{
+  transform: rotate(-90deg);
+  transition: 2s;
+}
+.precio {
+  font-size: 18px;
+  width: 50%;
+}
+.descuento {
+  font-size: 16px;
+  color: var(--verde);
+  width: 70%;
+}
+.precio-descuento {
+  display: flex;
+}
+
+.descripcion {
+  font-size: 16px;
+  margin-top: 30px;
+  display: none;
+}
+.descripcion:hover{
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  display: flex;
+  
+}*/
+article:hover .description{
+  display: flex;
+}
+.img {
+  width: 100%;
+  max-width: 100%;
+}
+.sombra:hover {
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+/*******************************media queries*******************************/
+/*------------------------TABLET------------------------*/
+@media (min-width: 420px) {
+  .menu-superior {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .tarjeta {
+    text-align: center;
+  }
+  .burger-menu {
+    display: none;
+  }
+  .body-nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+  }
+
+  .body-nav ul {
+    display: flex;
+  }
+  .article {
+    width: 40%;
+  }
+  .descripcion {
+    display: block;
+  }
+  .article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  .texto-footer {
+    display: block;
+  }
+}
+/* ------------- COMPUTADORA -------------*/
+@media (min-width: 769px){
+    .burger-menu  {
+       display: none;
+    }
+    .body-nav {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .left-navbar, .right-navbar {
+        display:inline-flex;
+        justify-content: space-between;
+        margin-left: 10px;
+        margin-right: 10px;
+      
+    }
+    .article{
+    
+        width: 20%;
+        }
+  
+    .descripcion{
+        display:block;
+    }
+    .texto-footer{
+        display:block;
+    }
+}

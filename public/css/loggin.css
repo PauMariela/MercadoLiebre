@@ -1,0 +1,72 @@
+@import url(styles.css);
+:root {
+    --amarillo: #eac926;
+    --azul: #03264c;
+    --celeste: #1259c3;
+    --gris-oscuro: #666;
+    --gris-claro: #ebebeb;
+    --verde: #39b54a;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+main{
+  background-color: var(--gris-claro);
+  box-sizing: border-box;
+}
+form {
+  width: 400px;
+  margin: 0 auto;
+  padding: 1em;
+  margin: auto;
+  color: var(--gris-oscuro);
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+input, textarea{
+  font: 1em sans-serif;
+  width: 367px;
+  height: 30px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+.recuadro{
+  margin-bottom: 20px;
+}
+.enviar{
+  padding-left: 130px;
+  margin-left: 10px;
+  background-color: var(--celeste);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  }
+  .enviar a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .boton{
+    width: 100%;
+    background: var(--celeste);
+    font-size: 20px;
+    color: var(--gris-claro);
+    padding: 7px;
+    border-radius: 5px;     
+  }
+  .boton:hover{
+    background-color: #0022AA;
+  }
+  .login{
+    margin-bottom: 271px;
+  }

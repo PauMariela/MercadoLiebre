@@ -1,0 +1,91 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/register.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/67f277868a.js" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+    <main>
+        <form action="register" method="post" class="registro-usuario">
+        
+            <div>
+                <label class="decoracion">Nombre y apellido</label>
+                <input type="text" name="nombre" placeholder="Nombre y apellido" class="recuadro">
+            </div>
+            
+            <div>
+                <label class="decoracion">Nombre de usuario</label>
+                <input type="text" name="NombreDeUsuario" placeholder="Nombre de usuario" class="recuadro">
+            </div>
+            
+            <div>
+                <label class="decoracion">E-mail</label>
+                <input type="email" name="email" placeholder="E-mail" class="recuadro">
+            </div>
+            
+            <div>
+                <label class="decoracion">Fecha de nacimiento</label>
+                <input type="date" name="FechaDeNacimiento" placeholder="Fecha de nacimiento" class="recuadro">
+                <br>
+            </div>
+            <div>
+                <label class="decoracion">Perfil del usuario</label>
+            </div>
+            <div>
+                <label>Comprador</label>
+                <input type="radio" name="comprador" class="recuadro">
+            </div>
+            
+            <div>
+                <label>Vendedor</label>
+                <input type="radio" name="vendedor" class="recuadro">
+            
+            </div>            
+            
+            <div>
+                <label class="decoracion">Categorías de interés</label>
+            </div>
+            
+            <div>
+                <label>Electro</label>
+                <input type="checkbox" name="electro" value="Categorías de interés" class="recuadro">
+            </div>
+            <div>
+                <label>Moda</label>
+                <input type="checkbox" name="electro" value="Categorías de interés" class="recuadro">
+            </div>
+            <div>
+                <label>Hogar</label>
+                <input type="checkbox" name="electro" value="Categorías de interés" class="recuadro">
+            </div>
+            <div>
+                <label>Juguetería</label>
+                <input type="checkbox" name="" value="Categorías de interés" class="recuadro">
+            </div>
+            <div>
+                <label>Vida sana</label>
+                <input type="checkbox" name="" value="" class="recuadro">
+            </div>
+            <div>
+                <label class="decoracion">Foto de usuario</label>
+                <input type="file" name="FotoDeUsuario" class="recuadro">
+            </div>
+            <div>
+                <label class="decoracion">Contraseña</label>
+                <input type="password" name="Contraseña" placeholder="Contraseña" class="recuadro">
+            </div>
+            <div>
+                <button type="submit" class="boton-enviar" class="recuadro" class="boton"><a href="/">Enviar</a></button>
+            </div>
+            <div>
+                <input type="reset" value="Borrar">
+            </div>
+    </main>
+</body>
+</form>
+<footer>  
+</footer>

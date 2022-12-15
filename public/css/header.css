@@ -1,0 +1,56 @@
+*{/*Asterisco es un selector universal, que se aplicará a todo el contenido.*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-superior {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--amarillo);
+    padding: 10px;
+    justify-content: space-around;
+}
+.tarjeta {
+    text-align: center;
+    display: inline-block;
+}
+.icon{
+    display:inline-block;
+    margin: 5px;
+}
+.burger-menu{
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+}
+.fa-bars {
+    background-color: var(--azul);
+    color: white;
+    padding: 9px;
+    border-radius: 20%;
+}
+.body-nav ul{
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+    display: none;
+}
+.left-navbar{
+    text-decoration: none; 
+    color: var(--grisoscuro);
+    display: inline-block;
+    padding: 5px 0;
+}
+.right-navbar {
+    display: flex;
+}
+.body-nav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 5px;
+}
+.logo-mercado-liebre{
+    width: 150px;
+}
